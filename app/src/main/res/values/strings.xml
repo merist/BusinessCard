@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quality Manager</string>
+    <string name="address">Lysaker Torg 12, Oslo, Norway</string>
+    <string name="phone">+47 22 95 83 63</string>
+    <string name="email">meri@qmplus.com</string>
+    <string name="website">www.qmplus.com</string>
+    <string name="qualitySystem">Quality System: </string>
+    <string name="internalControl">Internal control</string>
+    <string name="certification">Environmental certification</string>
+    <string name="docManagement">Document management</string>
+    <string name="risk">Risk assessment</string>
+</resources>

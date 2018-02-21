@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="normalText">16sp</dimen>
+    <dimen name="padding10">10dp</dimen>
+    <dimen name="padding20">20dp</dimen>
+    <dimen name="padding30">30dp</dimen>
+    <dimen name="padding50">50dp</dimen>
+</resources>

@@ -1,0 +1,148 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_item3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/main_background"
+    tools:context="qmplus.com.businesscard.MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding10"
+        android:layout_marginTop="@dimen/padding10"
+        android:background="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/item1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginLeft="@dimen/padding10"
+        android:layout_marginTop="@dimen/padding30"
+        android:drawablePadding="@dimen/padding10"
+        android:fontFamily="@font/droidserif_bolditalic"
+        android:text="@string/qualitySystem"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/normalText" />
+
+    <TextView
+        android:id="@+id/item2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/item1"
+        android:layout_alignStart="@+id/item1"
+        android:layout_below="@+id/item1"
+        android:layout_marginTop="@dimen/padding10"
+        android:drawableLeft="@drawable/circle"
+        android:drawablePadding="@dimen/padding10"
+        android:fontFamily="@font/droidserif_italic"
+        android:text="@string/internalControl"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/normalText" />
+
+    <TextView
+        android:id="@+id/item3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/item4"
+        android:layout_below="@+id/item2"
+        android:layout_marginTop="@dimen/padding10"
+        android:drawableLeft="@drawable/circle"
+        android:drawablePadding="@dimen/padding10"
+        android:fontFamily="@font/droidserif_italic"
+        android:text="@string/certification"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/normalText" />
+
+    <TextView
+        android:id="@+id/item4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item3"
+        android:layout_marginLeft="@dimen/padding10"
+        android:layout_marginTop="@dimen/padding10"
+        android:drawableLeft="@drawable/circle"
+        android:drawablePadding="@dimen/padding10"
+        android:fontFamily="@font/droidserif_italic"
+        android:text="@string/docManagement"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/normalText" />
+
+    <TextView
+        android:id="@+id/item5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item4"
+        android:layout_marginLeft="@dimen/padding10"
+        android:layout_marginTop="@dimen/padding10"
+        android:drawableLeft="@drawable/circle"
+        android:drawablePadding="@dimen/padding10"
+        android:fontFamily="@font/droidserif_italic"
+        android:text="@string/risk"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/normalText" />
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item5"
+        android:layout_marginLeft="@dimen/padding10"
+        android:layout_marginTop="@dimen/padding50"
+        android:drawableLeft="@drawable/home"
+        android:drawablePadding="@dimen/padding10"
+        android:fontFamily="@font/droidserif_regular"
+        android:gravity="center"
+        android:text="@string/address"
+        android:textColor="@color/colorBlack" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home"
+        android:layout_marginLeft="@dimen/padding10"
+        android:layout_marginTop="@dimen/padding20"
+        android:drawableLeft="@drawable/phone"
+        android:drawablePadding="@dimen/padding10"
+        android:fontFamily="@font/droidserif_regular"
+        android:gravity="center"
+        android:text="@string/phone"
+        android:textColor="@color/colorBlack" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/phone"
+        android:layout_alignStart="@+id/phone"
+        android:layout_below="@+id/phone"
+        android:layout_marginTop="@dimen/padding20"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="@dimen/padding10"
+        android:fontFamily="@font/droidserif_regular"
+        android:textColorLink="@color/colorBlack"
+        android:autoLink="email"
+        android:gravity="center"
+        android:text="@string/email"
+        android:textColor="@color/colorBlack" />
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_marginLeft="@dimen/padding10"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/www"
+        android:autoLink="web"
+        android:textColorLink="@color/colorBlack"
+        android:drawablePadding="@dimen/padding10"
+        android:fontFamily="@font/droidserif_regular"
+        android:gravity="center"
+        android:text="@string/website"
+        android:textColor="@color/colorBlack" />
+
+</RelativeLayout>
