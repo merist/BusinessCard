@@ -8,8 +8,28 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="circle">
-        <item name="android:background">@drawable/circle</item>
-        <item name="android:paddingLeft">10dp</item>
+    <!--Styles for the system text-->
+    <style name="systemText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/padding10</item>
+        <item name="android:drawableLeft">@drawable/circle</item>
+        <item name="android:drawablePadding">@dimen/padding10</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/normalText</item>
+        <item name="android:paddingLeft">@dimen/padding10</item>
     </style>
+
+    <!--Styles for the information text-->
+    <style name="infoText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">@dimen/padding10</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textColorLink">@color/colorBlack</item>
+        <item name="android:layout_marginTop">@dimen/padding20</item>
+        <item name="android:paddingLeft">@dimen/padding10</item>
+    </style>
+
 </resources>

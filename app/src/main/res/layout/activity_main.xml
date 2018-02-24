@@ -16,138 +16,81 @@
             android:layout_marginLeft="@dimen/padding10"
             android:layout_marginTop="@dimen/padding10"
             android:background="@drawable/logo" />
-        <!-- Start about the system-->
+        <!-- Start information about the system -->
         <TextView
             android:id="@+id/item1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/systemText"
             android:layout_below="@id/logo"
-            android:layout_marginLeft="@dimen/padding10"
-            android:layout_marginTop="@dimen/padding30"
-            android:drawablePadding="@dimen/padding10"
             android:fontFamily="@font/droidserif_bolditalic"
-            android:text="@string/qualitySystem"
-            android:textColor="@color/colorBlack"
-            android:textSize="@dimen/normalText" />
+            android:text="@string/qualitySystem" />
 
         <TextView
             android:id="@+id/item2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/item1"
-            android:layout_alignStart="@+id/item1"
+            style="@style/systemText"
             android:layout_below="@+id/item1"
-            android:layout_marginTop="@dimen/padding10"
-            android:drawableLeft="@drawable/circle"
-            android:drawablePadding="@dimen/padding10"
             android:fontFamily="@font/droidserif_italic"
-            android:text="@string/internalControl"
-            android:textColor="@color/colorBlack"
-            android:textSize="@dimen/normalText" />
+            android:text="@string/internalControl" />
 
         <TextView
             android:id="@+id/item3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/systemText"
             android:layout_alignLeft="@+id/item4"
             android:layout_below="@+id/item2"
-            android:layout_marginTop="@dimen/padding10"
-            android:drawableLeft="@drawable/circle"
-            android:drawablePadding="@dimen/padding10"
             android:fontFamily="@font/droidserif_italic"
-            android:text="@string/certification"
-            android:textColor="@color/colorBlack"
-            android:textSize="@dimen/normalText" />
+            android:text="@string/certification" />
 
         <TextView
             android:id="@+id/item4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/systemText"
             android:layout_below="@id/item3"
-            android:layout_marginLeft="@dimen/padding10"
-            android:layout_marginTop="@dimen/padding10"
-            android:drawableLeft="@drawable/circle"
-            android:drawablePadding="@dimen/padding10"
             android:fontFamily="@font/droidserif_italic"
-            android:text="@string/docManagement"
-            android:textColor="@color/colorBlack"
-            android:textSize="@dimen/normalText" />
+            android:text="@string/docManagement" />
 
         <TextView
             android:id="@+id/item5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/systemText"
             android:layout_below="@id/item4"
-            android:layout_marginLeft="@dimen/padding10"
-            android:layout_marginTop="@dimen/padding10"
-            android:drawableLeft="@drawable/circle"
-            android:drawablePadding="@dimen/padding10"
             android:fontFamily="@font/droidserif_italic"
-            android:text="@string/risk"
-            android:textColor="@color/colorBlack"
-            android:textSize="@dimen/normalText" />
-        <!-- End about the system-->
-        <!-- Start information about the company-->
+            android:text="@string/risk" />
+        <!-- End information about the system -->
+
+        <!-- Start information about the company -->
         <TextView
             android:id="@+id/home"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/infoText"
             android:layout_below="@id/item5"
-            android:layout_marginLeft="@dimen/padding10"
             android:layout_marginTop="@dimen/padding50"
+            android:autoLink="map"
             android:drawableLeft="@drawable/home"
-            android:drawablePadding="@dimen/padding10"
             android:fontFamily="@font/droidserif_regular"
-            android:gravity="center"
-            android:text="@string/address"
-            android:textColor="@color/colorBlack" />
+            android:text="@string/address" />
 
         <TextView
             android:id="@+id/phone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/home"
-            android:layout_marginLeft="@dimen/padding10"
-            android:layout_marginTop="@dimen/padding20"
+            style="@style/infoText"
+            android:layout_below="@+id/home"
+            android:autoLink="phone"
             android:drawableLeft="@drawable/phone"
-            android:drawablePadding="@dimen/padding10"
             android:fontFamily="@font/droidserif_regular"
-            android:gravity="center"
-            android:text="@string/phone"
-            android:textColor="@color/colorBlack" />
+            android:text="@string/phone" />
 
         <TextView
             android:id="@+id/email"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/phone"
-            android:layout_alignStart="@+id/phone"
+            style="@style/infoText"
             android:layout_below="@+id/phone"
-            android:layout_marginTop="@dimen/padding20"
             android:autoLink="email"
             android:drawableLeft="@drawable/email"
-            android:drawablePadding="@dimen/padding10"
             android:fontFamily="@font/droidserif_regular"
-            android:gravity="center"
-            android:text="@string/email"
-            android:textColor="@color/colorBlack"
-            android:textColorLink="@color/colorBlack" />
+            android:text="@string/email" />
 
         <TextView
             android:id="@+id/website"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/infoText"
             android:layout_below="@id/email"
-            android:layout_marginLeft="@dimen/padding10"
-            android:layout_marginTop="20dp"
             android:autoLink="web"
             android:drawableLeft="@drawable/www"
-            android:drawablePadding="@dimen/padding10"
             android:fontFamily="@font/droidserif_regular"
-            android:gravity="center"
-            android:text="@string/website"
-            android:textColor="@color/colorBlack"
-            android:textColorLink="@color/colorBlack" />
+            android:text="@string/website" />
         <!-- End information about the company-->
     </RelativeLayout>
 </ScrollView>
